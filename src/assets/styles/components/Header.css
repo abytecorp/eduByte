@@ -1,0 +1,199 @@
+.navigation-widget {
+    width: 300px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 40px 0 rgba(94, 92, 154, 0.06);
+    position: relative;
+}
+.navigation-widget .navigation-widget-close-button {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    fill: #3e3f5e;
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.navigation-widget .navigation-widget-cover {
+    width: 100%;
+    height: 76px;
+}
+.navigation-widget .navigation-widget-info-wrap {
+    padding: 32px 0 0 30px;
+    margin-bottom: 40px;
+}
+.navigation-widget .navigation-widget-info-wrap .navigation-widget-info {
+    min-height: 44px;
+    padding: 8px 0 0 50px;
+    position: relative;
+}
+.navigation-widget .navigation-widget-info-wrap .navigation-widget-info .user-avatar {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.navigation-widget .navigation-widget-info-wrap .navigation-widget-info .navigation-widget-info-title {
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+.navigation-widget .navigation-widget-info-wrap .navigation-widget-info .navigation-widget-info-title a {
+    color: #3e3f5e;
+    font-weight: 700;
+}
+.navigation-widget .navigation-widget-info-wrap .navigation-widget-info .navigation-widget-info-text {
+    margin-top: 4px;
+    color: #8f91ac;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.navigation-widget .navigation-widget-info-wrap .navigation-widget-info-button {
+    margin-top: 20px;
+    width: 140px;
+}
+.navigation-widget .navigation-widget-section-title {
+    padding-left: 30px;
+    color: #adafca;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navigation-widget .navigation-widget-section-title.space-top {
+    margin-top: 30px;
+}
+.navigation-widget .navigation-widget-section-title + .menu {
+    margin-top: 26px;
+}
+.navigation-widget .navigation-widget-section-title + .navigation-widget-section-link {
+    margin-top: 14px;
+}
+.navigation-widget .navigation-widget-section-link {
+    display: block;
+    padding: 12px 30px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    transition: padding 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.navigation-widget .navigation-widget-section-link .highlighted {
+    float: right;
+    color: #00c7d9;
+}
+.navigation-widget .navigation-widget-section-link:hover {
+    padding-left: 34px;
+}
+.navigation-widget .navigation-widget-section-link + .navigation-widget-section-title {
+    margin-top: 46px;
+}
+.navigation-widget .badge-list {
+    margin-top: 36px;
+}
+.navigation-widget .user-stats {
+    margin-top: 44px;
+}
+.navigation-widget .menu {
+    margin-top: 60px;
+}
+.navigation-widget .menu + .navigation-widget-section-title {
+    margin-top: 40px;
+}
+.navigation-widget.closed {
+    width: 80px;
+    padding-top: 20px;
+}
+.navigation-widget.closed .user-avatar {
+    margin: 0 auto;
+}
+.navigation-widget.closed .menu {
+    margin-top: 26px;
+}
+.user-avatar.big .user-avatar-progress,
+.user-avatar.big .user-avatar-progress-border {
+    top: 14px;
+    left: 12px;
+}
+.user-avatar.medium .user-avatar-progress,
+.user-avatar.medium .user-avatar-progress-border {
+    top: 11px;
+    left: 10px;
+}
+.user-avatar.small .user-avatar-progress,
+.user-avatar.small .user-avatar-progress-border {
+    top: 6px;
+    left: 5px;
+}
+.user-avatar.no-outline .user-avatar-progress,
+.user-avatar.no-outline .user-avatar-progress-border {
+    top: 0;
+    left: 0;
+}
+.user-avatar .user-avatar-progress,
+.user-avatar .user-avatar-progress-border {
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    z-index: 2;
+}
+.user-avatar .user-avatar-progress {
+    z-index: 3;
+}
+.user-avatar .user-avatar-progress-border {
+    z-index: 2;
+}
+.user-avatar .user-avatar-border .hexagon-content {
+    background-color: #fff;
+}
+.user-avatar .user-avatar-badge .user-avatar-badge-border .hexagon-content {
+    background-color: #fff;
+}
+.menu .menu-item {
+    padding: 0 16px;
+    margin-bottom: 10px;
+}
+.menu .menu-item:last-child {
+    margin-bottom: 0;
+}
+.menu .menu-item.active .menu-item-link,
+.menu .menu-item.active .menu-item-link:hover {
+    color: #fff;
+    background-color: #23d2e2;
+    box-shadow: 4px 7px 12px 0 rgba(35, 210, 226, 0.2);
+}
+.menu .menu-item.active .menu-item-link:hover {
+    padding-left: 62px;
+}
+.menu .menu-item.active .menu-item-link .menu-item-link-icon,
+.menu .menu-item.active .menu-item-link:hover .menu-item-link-icon {
+    fill: #fff;
+}
+.menu .menu-item .menu-item-link {
+    display: block;
+    height: 48px;
+    padding-left: 62px;
+    border-radius: 12px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 48px;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+.menu .menu-item .menu-item-link:hover {
+    background-color: #fff;
+    color: #3e3f5e;
+    padding-left: 70px;
+    box-shadow: 3px 5px 20px 0 rgba(94, 92, 154, 0.12);
+}
+.menu .menu-item .menu-item-link:hover .menu-item-link-icon {
+    fill: #23d2e2;
+}
+.menu .menu-item .menu-item-link .menu-item-link-icon {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+}

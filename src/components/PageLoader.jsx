@@ -1,0 +1,28 @@
+import React from 'react';
+
+const PageLoader = () => (
+	<div className="page-loader">
+    <div className="page-loader-decoration">
+{/* <svg xmlns="http://www.w3.org/2000/svg" xmlns: <ellipse data-name="Elipse 2" cx="152.5" cy="602.5" rx="93.5" ry="9.5" fill="none" /><image x="64" y="61" width="495" height="551" xlink:href="data:img/png;base64,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"/></svg> */}
+    </div>
+
+			<div className="page-loader-info">
+      <p className="page-loader-info-title">EduByte</p>
+
+      <p className="page-loader-info-text">Cargando...</p>
+    </div>
+
+					<div className="page-loader-indicator loader-bars">
+						<div className="loader-bar"></div>
+						<div className="loader-bar"></div>
+						<div className="loader-bar"></div>
+						<div className="loader-bar"></div>
+						<div className="loader-bar"></div>
+						<div className="loader-bar"></div>
+						<div className="loader-bar"></div>
+						<div className="loader-bar"></div>
+					</div>
+  </div >
+);
+
+export default PageLoader;
