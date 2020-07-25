@@ -1,0 +1,54 @@
+{
+	"initialState": {
+		"homework": [
+			{
+				"signature": "Entorno Fisico",
+				"signaturePicture":"https://lh3.googleusercontent.com/proxy/Bh4KNNgo_9_Yjlt-G8a6vIdhYF9C2Y-L8U0p0OFmSwOm4mNrPsUsoWrppEz6WFD-Cg0-lZTFQSz5t9IXbbcqHE8JnnCQoHgu1Z0pAVrC7vQi5a9TlAzvpczQ2A",
+				"title":"Tipos de fuerza",
+				"description": "Realice un ejemplo creativo de los diferentes tipos de fuerzas para la siguiente clase",
+				"files":[],
+				"dueDate":"2019-11-27 15:02:53",
+				"createdt":"2019-11-24 15:02:53",
+				"updatedAt":"2019-11-24 15:02:53",
+				"deletedAt":""
+			},
+			{
+				"signature": "Matematicas",
+				"signaturePicture": "https://www.google.com.co/url?sa=i&url=https%3A%2F%2Fwww.tivitycompany.es%2Factividades-para-empresas%2F&psig=AOvVaw2uckvGM4T-4XGaYEpZMyv1&ust=1595690010077000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCND7rdqW5uoCFQAAAAAdAAAAABAK",
+				"title": "Divisiones 2 cifras",
+				"description": "Realice los ejercicios planteados",
+				"files":["https://www.edufichas.com/wp-content/uploads/2020/02/divisiones-de-una-cifra.png"],
+				"dueDate": "2019-11-27 15:02:53",
+				"createdt": "2019-11-24 15:02:53",
+				"updatedAt": "2019-11-24 15:02:53",
+				"deletedAt": ""
+			},
+			{
+				"signature": "Lenguaje",
+				"signaturePicture": "https://www.google.com.co/url?sa=i&url=https%3A%2F%2Fes-la.facebook.com%2FileanaPHL%2Fposts%2F&psig=AOvVaw0x1Q6yVRSbIawl2a41AAWi&ust=1595694141268000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDvzoim5uoCFQAAAAAdAAAAABAE",
+				"title": "Resumen historia",
+				"description": "Realice un resumen de la historia de pedro",
+				"files": [
+					"http://www.librosmaravillosos.com/veintecuentos/pdf/Los%20cuentos%20de%20Pedro%20Urdemales%20-%20Ramon%20A%20Laval.pdf"
+				],
+				"dueDate": "2019-11-27 15:02:53",
+				"createdt": "2019-11-24 15:02:53",
+				"updatedAt": "2019-11-24 15:02:53",
+				"deletedAt": ""
+			},
+			{
+				"signature": "Educacion Fisica",
+				"signaturePicture": "https://www.google.com.co/url?sa=i&url=https%3A%2F%2Flisbethmenjivar.tumblr.com%2F&psig=AOvVaw1vQZj8oAgAzvLhtqLi2TKM&ust=1595694266170000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCwsMGm5uoCFQAAAAAdAAAAABAD",
+				"title": "Ejercicios Coordinacion",
+				"description": "Debes enviar en video la evidencia de los ejercicios",
+				"files": [
+					"https://www.youtube.com/watch?v=AGPnw0Bchis"
+				],
+				"dueDate": "2019-11-27 15:02:53",
+				"createdt": "2019-11-24 15:02:53",
+				"updatedAt": "2019-11-24 15:02:53",
+				"deletedAt": ""
+			}
+		]
+	}
+}
